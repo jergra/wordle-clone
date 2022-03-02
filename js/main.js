@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
         //console.log('res.VALID_GUESSES:', res.VALID_GUESSES)
         const validArray = res.VALID_GUESSES
         if (validArray.includes(currentWord)) {
-          console.log(currentWord, ' is a valid word')
+          //console.log(currentWord, ' is a valid word')
         
           const firstLetterId = guessedWordCount * 5 + 1;
           const interval = 200;
